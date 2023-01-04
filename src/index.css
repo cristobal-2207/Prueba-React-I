@@ -13,7 +13,7 @@ code {
 }
 
 .footer{
-  background-color: black;
+  background-color: #14213d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ code {
 }
 
 .footer p {
-  color: white;
+  color: #e5e5e5;
   font-size: large;
   font-weight: bolder;
 }

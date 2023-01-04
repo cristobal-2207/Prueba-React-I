@@ -20,11 +20,11 @@ const CharacterCard = ({characterUrl}) => {
     <Card style={{width: '18rem'}}>
       <Card.Img variant="top" src={characterData.image} />
       <Card.Body>
-        <Card.Title>{characterData.id} - {characterData.name}</Card.Title>
+        <Card.Title>{characterData.name}</Card.Title>
         <Button variant="primary">Escoger</Button>
       </Card.Body>
     </Card>
   )
-}
+};
 
 export default CharacterCard;

@@ -1,9 +1,14 @@
+import Form from 'react-bootstrap/Form';
 const CharacterBrowser = ({setSearch}) => {
   return (
-    <form >
-      <label htmlFor="search">Busca a tu personaje por nombre:</label>
-      <input type="text" name="search" onChange={(e) => setSearch(e.target.value)}/>
-    </form>
+    <div>
+      <Form className="m-4" >
+        <Form.Group className="mb-5" controlId="formBasicEmail">
+          <Form.Label htmlFor="search">Busca a tu personaje por nombre</Form.Label>
+          <Form.Control type="text" placeholder="Ingresa el nombre de tu personaje" name="search" onChange={(e) => setSearch(e.target.value)} />
+        </Form.Group>
+      </Form>   
+    </div>
   )
 }
 
