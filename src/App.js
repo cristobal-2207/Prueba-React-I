@@ -1,12 +1,14 @@
+import Footer from "./components/Footer";
 import MiApi from "./components/MiApi";
+import NavBar from "./components/NavBar";
 
-function App() {
+const  App = () => {
   return (
-    <div className="App">
-
+    <div>
+      <NavBar />
       <MiApi />
-      
-    </div>
+      <Footer />
+    </div>   
   );
 }
 
