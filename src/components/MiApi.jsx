@@ -18,7 +18,8 @@ const MiApi = () => {
     getData();
   }, []);
 
-  const filteredCharacters = characters.filter((character) => character.name.toLowerCase().includes(search.toLowerCase()));
+  const filteredCharacters = characters.filter((character) => character.name.toLowerCase().includes(search.toLowerCase()))
+  //const sortFilteredCharacters = characters.sort((a, b) => a.name < b.name ? -1 : +(a.nombre > b.nombre));
 
   return (
     <div>

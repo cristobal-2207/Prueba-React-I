@@ -20,7 +20,7 @@ const CharacterCard = ({characterUrl}) => {
     <Card className="card-character" style={{width: '18rem'}}>
       <Card.Img variant="top" src={characterData.image} />
       <Card.Body>
-        <Card.Title>{characterData.name}</Card.Title>
+        <Card.Title>{characterData.id} - {characterData.name}</Card.Title>
         <Button variant="primary">Escoger</Button>
       </Card.Body>
     </Card>
