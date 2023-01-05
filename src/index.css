@@ -5,13 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dee2e6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.font-size-input{
+  font-size: 24px;
+  font-weight: bold;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+.card-character{
+  margin: auto;
+  margin-bottom: 24px;
+}
 .footer{
   background-color: #14213d;
   display: flex;
@@ -20,7 +32,6 @@ code {
   
   height: 70px;
 }
-
 .footer p {
   color: #e5e5e5;
   font-size: large;
