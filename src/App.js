@@ -4,11 +4,11 @@ import NavBar from "./components/NavBar";
 
 const  App = () => {
   return (
-    <div>
+    <main>
       <NavBar />
       <MiApi />
       <Footer />
-    </div>   
+    </main>   
   );
 };
 export default App;
